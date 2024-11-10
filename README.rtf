@@ -1,19 +1,25 @@
-File Processing Script
-This script processes files from a specified input folder, copying non-video files to an output folder and converting .mp4 video files to 720p resolution using FFmpeg and u can change.
-Requirements
-	•	Node.js installed on your system.
-	•	FFmpeg  installed and accessible in your system's PATH. (FFmpeg is used to handle video conversion.)
-Installation
+File Processing Script:
+This script processes files from a specified input folder, copying video files to an output folder and converting .mp4 video files to 720p resolution using FFmpeg and you can change.
+
+
+Requirements:
+	1.	Node.js installed on your system.
+	2.	FFmpeg  installed and accessible in your system's PATH. (FFmpeg is used to handle video conversion.)
+
+
+Installation:
 	1.	Clone or download this script to your machine.
 	2.	Install Node.js if it's not already installed.
 	3.	Ensure FFmpeg is installed and accessible from your command line or terminal.
-Usage
-	1.	Update the inputFolder and outputFolder paths in the script to match your desired directories:
+
+
+Usage:
+	1.Update the inputFolder and outputFolder paths in the script to match your desired directories:
          const inputFolder = '/path/to/your/input/folder';
          const outputFolder = '/path/to/your/output/folder';
 
 
-	2.	Run the script:  index.js
+	2.Run the script:  index.js
 	◦	The script will create the outputFolder if it doesn't exist.
 	◦	It will copy all non-video files from the inputFolder to the outputFolder.
 	◦	It will convert .mp4 files to 720p resolution using FFmpeg and save them in the outputFolder.
